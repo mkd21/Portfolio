@@ -1,11 +1,24 @@
 
-import './App.css'
+import './App.css';
+
+// components 
+
+import LandingPage from './component/LandingPage.jsx';
+import Experience from './component/Experience.jsx';
+import Projects from './component/Projects.jsx';
+import Skills from './component/Skills.jsx';
+import Education from './component/Education.jsx';
+
 
 function App() {
 
   return (
     <>
-      <h1>Hello</h1>
+      <LandingPage />
+      <Experience />
+      <Projects />
+      <Skills />
+      <Education />
     </>
   )
 }
