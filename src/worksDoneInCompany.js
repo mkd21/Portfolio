@@ -69,4 +69,63 @@ const worksDoneDuringInternship = [
     }
 ];
 
-export {worksDoneDuringInternship};
+
+const workDoneDuringFreelancing = [
+
+    {
+        id : 1,
+        worksDone : [
+
+            { 
+                text : `Designed and developed a sleek, fully responsive landing page for a creative 
+                agency that works with celebrities and major brands`,
+                className : " text-black inline "
+            }
+        ]
+    },
+
+    {
+        id : 2,
+        worksDone : [
+            {
+                text : "Used", className : "text-black inline"
+            },
+            {
+                text : "React" , className : "text-black font-[600] inline"
+            },
+            {
+                text : "with" , className : "text-black inline"
+            },
+            {
+                text : " React Router" , className : "text-black font-[600] inline"
+            },
+            {
+                text : " to structure different page sections and keep navigation smooth." , className : "text-black inline"
+            }
+        ]
+    },
+
+    {
+        id : 3,
+        worksDone : [
+            {
+                text : "Integrated", className : "text-black inline"
+            },
+            {
+                text : "Swiper" , className : "text-black font-[600] inline"
+            },
+            {
+                text : "for interactive sliders and" , className : "text-black inline"
+            },
+            {
+                text : "anime.js " , className : "text-black font-[600] inline"
+            },
+            {
+                text : "to add subtle animations." , className : "text-black inline"
+            }
+        ]
+    }
+];
+
+
+export {worksDoneDuringInternship , workDoneDuringFreelancing };
