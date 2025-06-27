@@ -1,0 +1,16 @@
+
+.SkillsHeading
+{
+    position: relative;
+}
+
+.SkillsHeading::after
+{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 11rem;
+    height: 2px;
+    background-color: #cbcbda;
+    left: 34rem;
+}

@@ -11,7 +11,7 @@ import experienceStyle from "../styles/experience.module.css";
 export default function Experience() {
     return (
         <>
-            <section className=" xl:w-[95%] m-auto xl:mt-[3rem] ">
+            <section className=" xl:w-[95%] m-auto xl:mt-[4rem] xl:pb-[3rem]" >
 
                 <section className=" text-center xl:text-[2.8rem] font-roboto font-[600]">
                     <h1 className={experienceStyle.experienceHeading} >Experience</h1>

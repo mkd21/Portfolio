@@ -1,7 +1,7 @@
 
 export default function SkillsRenderer({id,worksDone})
 {
-    console.log(id , worksDone , worksDone)
+
     return (
         <div className="xl:mb-4" >
             {
