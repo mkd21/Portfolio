@@ -1,0 +1,15 @@
+.educationHeading
+{
+    position: relative;
+}
+
+.educationHeading::after
+{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 15rem;
+    height: 2px;
+    background-color: #cbcbda;
+    left: 32rem;
+}

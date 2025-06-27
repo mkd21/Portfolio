@@ -7,7 +7,7 @@ import LandingPage from './component/LandingPage.jsx';
 import Experience from './component/Experience.jsx';
 import Projects from './component/project-section/Projects.jsx';
 import Skills from './component/skills-section/Skills.jsx';
-import Education from './component/Education.jsx';
+import Education from './component/education-section/Education.jsx';
 
 
 function App() {
