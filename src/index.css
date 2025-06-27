@@ -9,3 +9,10 @@
 @import "@fontsource/roboto/500.css";
 
 @import "@fontsource/playfair-display";
+
+.no-glare .glare-wrapper,
+.no-glare .glare-inner {
+  background: transparent !important;
+  opacity: 0 !important;
+  pointer-events: none;
+}

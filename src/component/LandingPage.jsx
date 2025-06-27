@@ -4,6 +4,8 @@ import { MdAttachEmail } from "react-icons/md";
 import { FaLinkedin } from "react-icons/fa";
 import { FaSquareGithub } from "react-icons/fa6";
 
+import Tilt from 'react-parallax-tilt';
+
 
 export default function LandingPage() {
     return (
@@ -79,10 +81,22 @@ export default function LandingPage() {
                         </section>
                     </section>
 
-                    <div className="xl:w-[30%] xl:h-[48vh] rounded-full bg-gray-900 bg-[url('../../assets/dev-image/my-image.jpg')] bg-cover bg-center border-4 border-white shadow-2xl relative">
-                        {/* Decorative ring around profile */}
-                        <div className="absolute -inset-4 rounded-full border-2 border-blue-200 opacity-30"></div>
-                        <div className="absolute -inset-6 rounded-full border border-indigo-100 opacity-20"></div>
+                    <div className="xl:w-[30%] xl:h-[48vh]">
+                        <Tilt
+                            tiltMaxAngleX={25}
+                            tiltMaxAngleY={25}
+                            glareEnable={false}
+                            scale={1.05}
+                            transitionSpeed={1500}
+                            gyroscope={true}
+                            className="hover:bg-transparent focus:bg-transparent active:bg-transparent outline-none"
+                        >
+                            <div className="xl:w-[100%] xl:h-[48vh] rounded-full bg-gray-900 bg-[url('../../assets/dev-image/my-image.jpg')] bg-cover bg-center border-4 border-white shadow-2xl relative">
+                                {/* Decorative ring around profile */}
+                                <div className="absolute -inset-4 rounded-full border-2 border-blue-200 opacity-30"></div>
+                                <div className="absolute -inset-6 rounded-full border border-indigo-100 opacity-20"></div>
+                            </div>
+                        </Tilt>
                     </div>
                 </header>
             </div>
