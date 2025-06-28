@@ -1,11 +1,31 @@
-
-.experienceHeading
-{
+@media (min-width: 300px) and (max-width: 500px) {
+  .experienceHeading {
     position: relative;
+  }
+  .experienceHeading::after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 12rem;
+    height: 2px;
+    background-color: #cbcbda;
+    left: 4.9rem;
+  }
+  .experienceSectionShadow {
+    box-shadow: 0px 0px 20px grey;
+    border-radius: 3rem 0;
+    margin-top: 2rem;
+    padding: 1.4rem;
+    background-color: #fcf7f7;
+  }
 }
 
-.experienceHeading::after
-{
+@media (min-width: 1000px) and (max-width: 1300px) {
+  .experienceHeading {
+    position: relative;
+  }
+
+  .experienceHeading::after {
     position: absolute;
     content: "";
     display: block;
@@ -13,13 +33,13 @@
     height: 2px;
     background-color: #cbcbda;
     left: 30rem;
-}
+  }
 
-.experienceSectionShadow
-{
+  .experienceSectionShadow {
     box-shadow: 0px 0px 20px grey;
     border-radius: 3rem 0;
     margin-top: 2rem;
     padding: 1.4rem;
     background-color: #fcf7f7;
+  }
 }

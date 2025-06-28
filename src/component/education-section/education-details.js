@@ -15,7 +15,7 @@ export const educationDetail = [
          alternameMessage : "marwari college logo",
         collegeName : "Marwari College",
         collegeLocation : "Bhagalpur , Bihar",
-        degreeObtained : "Bsc.IT(Bachelor of Science in Information TEchnology)",
+        degreeObtained : "Bsc.IT(Bachelor of Science in Information Technology)",
         degreeDuration : "2018 - 2021"
     }
 ]; 

@@ -1,11 +1,25 @@
-
-.projectHeading
-{
+@media (min-width: 300px) and (max-width: 500px) {
+  .projectHeading {
     position: relative;
+  }
+
+  .projectHeading::after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 9rem;
+    height: 2px;
+    background-color: #cbcbda;
+    left: 9rem;
+  }
 }
 
-.projectHeading::after
-{
+@media (min-width: 1000px) and (max-width: 1300px) {
+  .projectHeading {
+    position: relative;
+  }
+
+  .projectHeading::after {
     position: absolute;
     content: "";
     display: block;
@@ -13,4 +27,5 @@
     height: 2px;
     background-color: #cbcbda;
     left: 32rem;
+  }
 }

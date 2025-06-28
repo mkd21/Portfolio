@@ -1,10 +1,25 @@
-.educationHeading
-{
+@media (min-width: 300px) and (max-width: 500px) {
+  .educationHeading {
     position: relative;
+  }
+
+  .educationHeading::after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 11rem;
+    height: 2px;
+    background-color: #cbcbda;
+    left: 8rem;
+  }
 }
 
-.educationHeading::after
-{
+@media (min-width: 1000px) and (max-width: 1300px) {
+  .educationHeading {
+    position: relative;
+  }
+
+  .educationHeading::after {
     position: absolute;
     content: "";
     display: block;
@@ -12,4 +27,5 @@
     height: 2px;
     background-color: #cbcbda;
     left: 32rem;
+  }
 }

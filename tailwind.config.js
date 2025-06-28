@@ -11,6 +11,12 @@ export default {
         playfair: ['"Playfair Display"', 'serif'],
       },
     },
+    screens: {
+      'xs320': '320px',  // extra small
+      "xs60" : "360px",
+      'xs400': '400px', // custom breakpoint
+      ...require('tailwindcss/defaultTheme').screens,
+    }
   },
   plugins: [],
 }
