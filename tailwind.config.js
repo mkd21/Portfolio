@@ -13,7 +13,7 @@ export default {
     },
     screens: {
       'xs320': '320px',  // extra small
-      "xs60" : "360px",
+      "xs360" : "360px",
       'xs400': '400px', // custom breakpoint
       ...require('tailwindcss/defaultTheme').screens,
     }
