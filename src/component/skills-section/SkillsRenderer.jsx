@@ -3,7 +3,6 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 
 import { useRef } from 'react';
-import { useInView } from 'framer-motion';
 import { motion } from "framer-motion";
 
 const skillVariants = {

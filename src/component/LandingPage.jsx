@@ -91,7 +91,7 @@ export default function LandingPage() {
                             gyroscope={true}
                             className="hover:bg-transparent focus:bg-transparent active:bg-transparent outline-none"
                         >
-                            <div className=" xs360:h-[13vh] xs400:h-[13vh] xl:w-[100%] xl:block xl:h-[48vh] rounded-full bg-gray-900 bg-[url('../../assets/dev-image/my-image.jpg')] bg-cover bg-center border-4 border-white shadow-2xl relative">
+                            <div className=" xs360:h-[12vh] xs400:h-[13vh] xl:w-[100%] xl:block xl:h-[48vh] 2xl:w-[81%] 2xl:h-[53vh] rounded-full bg-gray-900 bg-[url('../../assets/dev-image/my-image.jpg')] bg-cover bg-center border-4 border-white shadow-2xl relative">
                                 {/* Decorative ring around profile */}
                                 <div className="absolute -inset-4 rounded-full border-2 border-blue-200 opacity-30"></div>
                                 <div className="absolute -inset-6 rounded-full border border-indigo-100 opacity-20"></div>

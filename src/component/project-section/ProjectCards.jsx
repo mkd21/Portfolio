@@ -15,7 +15,7 @@ export default function ProjectsCard({projectImage , projectName , techsUsed , d
 
     return (
         <>
-            <Card className='xs400:mb-[3rem] '
+            <Card className=' xs360:mb-[3rem] '
                 sx={{
                     width: { lg: "30rem" }, padding: { lg: "1rem" },
                     background: "rgba(207, 237, 249, 0.2)",
@@ -37,14 +37,14 @@ export default function ProjectsCard({projectImage , projectName , techsUsed , d
                         alt="communion project image"
                     />
                     <CardContent>
-                        <Typography gutterBottom variant="h5" component="div">
+                        <Typography className=" !font-[600] xs360:!text-[1.2rem] xs400:!text-[1.5rem] " gutterBottom component="div">
                             {projectName}
                         </Typography>
 
 
-                        <Box className="xs400:flex xs400:justify-around xs400:my-4 "  sx={{ display: { lg: "flex" }, justifyContent: { lg: "space-around" }, margin: { lg: "2rem 0" } }} >
+                        <Box className="flex justify-around my-4 flex-wrap "  sx={{ display: { lg: "flex" }, justifyContent: { lg: "space-around" }, margin: { lg: "2rem 0" } }} >
                             {
-                                techsUsed.map( (iter) => <Chip label={iter} /> )
+                                techsUsed.map( (iter) => <Chip className='my-1' label={iter} /> )
                             }
                         </Box> 
 
@@ -54,7 +54,7 @@ export default function ProjectsCard({projectImage , projectName , techsUsed , d
                         </Typography>
 
 
-                        <Box className=" xs400:flex xs320:flex-col xs400:justify-around xs400:h-[6rem] xs400:mt-4 xs400:w-[60%] m-auto " sx={{ display: { lg: "flex" }, justifyContent: { lg: "space-around" }, marginTop: { lg: "1rem" } }} >
+                        <Box className=" xs360:flex xs360:flex-col xs360:justify-around xs360:w-[67%] xs360:h-[6rem] xs360:mt-4 xs400:flex xs400:justify-around xs400:h-[6rem] xs400:mt-4 xs400:w-[60%] m-auto " sx={{ display: { lg: "flex" }, justifyContent: { lg: "space-around" }, marginTop: { lg: "1rem" } }} >
 
                             <Button variant="contained" href={projectLinks.LiveLink} target='_blank' sx={{ width: { lg: "11rem" }, display: "flex", justifyContent: "space-around", backgroundColor: "#2c5656"}} >
                                 <HiMiniArrowTopRightOnSquare className="lg:text-[1.4rem]" /> View Project

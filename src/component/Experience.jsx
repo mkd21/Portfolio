@@ -8,13 +8,17 @@ import SkillsRenderer from "./SkillsRenderer.jsx";
 import experienceStyle from "../styles/experience.module.css";
 
 
+
 export default function Experience() {
     return (
         <>
             <section className=" xs360:w-[80%] xs360:mt-[2rem] xs360:pb-[3rem] xs400:w-[80%] xs400:mt-[2rem] xs400:pb-[3rem] xl:w-[95%] m-auto xl:mt-[4rem] xl:pb-[3rem]" >
 
-                <section className=" text-center xs360:text-[2rem] xs400:text-[2rem] xl:text-[2.8rem] font-roboto font-[600]">
-                    <h1 className={experienceStyle.experienceHeading} >Experience</h1>
+                <section className=" m-auto xs360:w-[70%] xs360:text-[2rem] xs400:text-[2rem] xl:text-[2.8rem] xl:w-[30%] 2xl:w-[24%] font-roboto font-[600]">
+                    <div className=" flex justify-around">
+                        <h1>Experience</h1>
+                        <img src="../../assets/section-wise-images/experience.png" className=" xs360:w-[23%] " alt="experience image" />
+                    </div>
                 </section>
 
                 {/* about company and work  */}
