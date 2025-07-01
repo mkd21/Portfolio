@@ -6,6 +6,7 @@ import { FaSquareGithub } from "react-icons/fa6";
 
 import Tilt from 'react-parallax-tilt';
 
+import TypingEffect from "./TypingEffect.jsx";
 
 export default function LandingPage() {
     return (
@@ -40,10 +41,12 @@ export default function LandingPage() {
                 <header className=" xs360:w-[80%] xs360:m-auto xs400:w-[80%] xs400:m-auto xl:w-[100%] xl:flex xl:justify-around xl:items-center xl:pt-[3rem]">
                     <section className=" xs360:mb-12 xs400:mb-12 xl:mb-0 xs400:w-[67%] xl:w-[33%] ">
                         <section className=" xs360:mb-4 xs400:mb-4 ">
-                            <h1 className=" xs360:text-[2rem] xs400:text-[2.2rem] xs400:mb-2 xl:text-[4rem] xl:font-[700] text-gray-800" style={{fontWeight: "600",textShadow: "rgb(21 76 160) 14px 12px 45px" }}>
+                            <h1 className=" xs360:text-[2rem] xs400:text-[2.2rem] xs400:mb-2 xl:text-[4rem] xl:font-[700] text-gray-800" style={{ fontWeight: "600", textShadow: "rgb(21 76 160) 14px 12px 45px" }}>
                                 Mayank Deep
                             </h1>
-                            <h2 className="text-blue-600 font-[600] xs360:text-[1rem] xs400:text-[1.3rem] xl:text-[1.6rem]" style={{textShadow: "0 0 30px #e950d2"}} >Full Stack Developer</h2>
+                            {/* <h2 className="text-blue-600 font-[600] xs360:text-[1rem] xs400:text-[1.3rem] xl:text-[1.6rem]" style={{textShadow: "0 0 30px #e950d2"}} >Full Stack Developer</h2> */}
+
+                            <TypingEffect />
                         </section>
 
                         {/* location and contact number */}
